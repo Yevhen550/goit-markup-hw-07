@@ -1,56 +1,4 @@
-/* Базові налаштування */
 
-:root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --tetriary-text-color: #000000;
-    --primary-title-color: #ffffff;
-    --description-text: rgba(255, 255, 255, 0.6);
-    --accent-color: #2196f3;
-    --background-color-hero: #2f303a;
-    --background-color-btn: #188ce8;
-    --moz-background-team: #f5f4fa;
-    --border-bottom-color: #ececec;
-    --border-portfolio: #eeeeee;
-    --primary-svg-color: #afb1b8;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    /* outline: 2px solid tomato; */
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-}
-
-ul {
-    padding-left: 0;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    color: var(--primary-text-color);
-    background-color: var(--primary-title-color);
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
 
 .container {
     margin: 0 auto;
@@ -101,17 +49,6 @@ img {
         transform: rotate(10deg);
     }
 }
-
-/* Button styles */
-
-button {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    text-align: center;
-}
-
 
 /* Hide heading */
 
