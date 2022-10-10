@@ -1,87 +1,87 @@
 .team {
-    background-color: var(--moz-background-team);
-    padding: 94px 0;
-}
+  background-color: var(--moz-background-team);
+  padding: 94px 0;
 
-.team__title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+  }
 
-.team__item {
+  &__item {
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-        0px 2px 1px rgb(0 0 0 / 20%);
+      0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
     background-color: #fff;
-}
+  }
 
-.team__item:not(:first-child) {
+  &__item:not(:first-child) {
     margin-left: 30px;
+  }
 }
 
 .team-card {
-    padding: 30px 0;
-}
+  padding: 30px 0;
 
-.team-card__pretitle {
+  &__pretitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-}
+  }
 
-.team-card__description {
+  &__description {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 10px;
-}
+  }
 
-.team-card__social {
+  &__social {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 16px;
-}
+  }
 
-.team-card__item {
+  &__item {
     width: 44px;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.team-card__link {
+  &__link {
     width: 44px;
     height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-}
+  }
 
-.team-card__link:hover,
-.team-card__link:focus {
+  &__link:hover,
+  &__link:focus {
     background-color: var(--accent-color);
-}
+  }
 
-.team-card__link:hover svg,
-.team-card__link:focus svg {
+  &__link:hover svg,
+  &__link:focus svg {
     fill: var(--primary-title-color);
-}
+  }
 
-.team-card__icon {
+  &__icon {
     fill: var(--primary-svg-color);
-}
+  }
 
-.team-card__icon {
+  &__icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
