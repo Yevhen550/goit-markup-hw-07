@@ -12,7 +12,9 @@
     width: 170px;
     height: 92px;
     padding: 16px 32px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--primary-svg-color);
     border-radius: 4px;
     fill: var(--primary-svg-color);
